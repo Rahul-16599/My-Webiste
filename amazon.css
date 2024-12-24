@@ -1,0 +1,234 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+body{
+    background-color: aliceblue;
+}
+
+.navbar{
+    height: 60px;
+    background-color:#0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+
+/** box 2 in navbar, navbar displays flex makes it like row **/
+.address1{
+    color: #cccccc;
+    font-size: 0.8rem;
+    margin-left: 15px;
+}
+.address2{
+  font-size: 1rem;
+  margin-left: 3px;
+}
+.addressicon{
+    display: flex;
+    align-items: center;
+}
+
+/** box 3 **/
+.navsearch{
+    display: flex;
+    justify-content: space-evenly;
+    width: 620px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: pink;
+}
+.navsearch:hover{
+    border: 2px solid orange;
+}
+.searchselect{
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: #f3f3f3;
+    border: none;
+}
+.searchinput{
+    width: 100%;
+    border: none;
+    font-size: 1rem;
+}
+.searchicon{
+    width: 45px;
+    display: flex;
+    font-size: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    color: #0f1111;
+    background-color: #febd68;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+/** box 3 **/
+span{
+    font-size: 0.85rem;
+}
+.navsecond{
+    font-size: 0.95rem;
+    font-weight: 700;
+}
+/** box 6 Cart**/
+.navcart i{
+    font-size: 25px;
+
+}
+.navcart {
+    font-size: 1rem;
+    font-weight: 700;
+
+}
+/** box 6 Cart**/
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.paneloption p {
+    display: inline;
+    margin-left: 15px;
+}
+.paneloption{
+    width: 70%;
+    font-size: 1rem;
+}
+.paneldeals{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+/** Hero Section**/
+.herosection{
+    height: 270px;
+    background-image: url(hero_image.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.heromessage{
+    background-color: white;
+    color: black;
+    height: 40px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    margin-bottom: 10px;
+   
+}
+/** Shop Section**/
+.shopsection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+    
+}
+.box{
+    height: 400px;
+    width: 23%;
+    margin-top: 25px;
+    background-color: white;
+    padding: 20px 0px 15px 0px;
+}
+.boxcontent{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    
+}
+.boximg1{
+    height: 300px;
+    background-image: url(box1_image.jpg);
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.boximg2{
+    height: 300px;
+    background-image: url(box2_image.jpg);
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.boximg3{
+    height: 300px;
+    background-image: url(box3_image.jpg);
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.boximg3{
+    height: 300px;
+    background-image: url(box3_image.jpg);
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.boximg4{
+    height: 300px;
+    background-image: url(box4_image.jpg);
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.boximg5{
+    height: 300px;
+    background-image: url(box5_image.jpg);
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.boximg6{
+    height: 300px;
+    background-image: url(box6_image.jpg);
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.boximg7{
+    height: 300px;
+    background-image: url(box7_image.jpg);
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.boximg8{
+    height: 300px;
+    background-image: url(box8_image.jpg);
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.boxcontent p {
+color: #007185;
+}

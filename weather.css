@@ -1,0 +1,71 @@
+#zero{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#first{
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+#city-input{
+    font-size: 18px;
+    margin-top: 30px;
+}
+#search-button{
+    font-size: 18px;
+}
+
+
+#second{
+    font-size: 16px;
+    margin-top: 10px;
+    color: rgb(114, 5, 217);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+#fourth{
+    font-size: 18px;
+    padding: 2px;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+    color: rgb(236, 240, 237);
+    background-color: rgb(57, 111, 3);
+    align-items: right;
+    text-align: center;
+    border: 2px solid black;
+    
+}
+#time-box{
+    font-size: 20px;
+    padding: 2px;
+    height: 110px;
+    width: 180px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: rgb(236, 240, 237);
+    background-color: gray;
+    align-items: center;
+    text-align: center;
+    border: 3px solid black;
+   
+}
+#stop{
+    padding: 2px;
+    margin-top: 5px;
+    font-size: 16px;
+    justify-content: center;
+    color: rgb(236, 240, 237);
+    background-color: rgb(4, 87, 135);
+    align-items: right;
+    text-align: center;
+    border: 2px solid black;
+}
